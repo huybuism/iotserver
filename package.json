@@ -5,6 +5,7 @@
   "description": "ProjectESP8266",
   "main": "index.js",
   "dependencies": {
+    "lodash": "^4.16.4",
     "angular": "^1.6.2",
     "angular-route": "^1.6.2",
     "angular-socket-io": "^0.7.0",
@@ -20,7 +21,7 @@
     "ip": "^1.1.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "node index.js"
   },
   "author": "",
   "license": "ISC"
